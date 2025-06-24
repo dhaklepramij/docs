@@ -39,30 +39,28 @@
         {
           "group": "Payment Links",
           "pages": [
-            "api-reference/endpoint/payment-links/create",
-            "api-reference/endpoint/payment-links/delete",
-            "api-reference/endpoint/payment-links/get",
-            "api-reference/endpoint/payment-links/get-by-filter"
+            "api-reference/endpoint/create",
+            "api-reference/endpoint/delete",
+            "api-reference/endpoint/get",
+            "api-reference/endpoint/Get by filter"
           ]
         },
         {
           "group": "Transaction Status",
           "pages": [
-            "api-reference/endpoint/transaction-status/get-transaction",
-            "api-reference/endpoint/transaction-status/transaction-by-id"
+            "api-reference/endpoint/Transaction/get"
           ]
         },
         {
           "group": "Business Details",
           "pages": [
-            "api-reference/endpoint/business-details/get"
+            "api-reference/endpoint/Business/get"
           ]
         },
         {
           "group": "Payout Summary",
           "pages": [
-            "api-reference/endpoint/payout-summary/get",
-            "api-reference/endpoint/payout-summary/get-all-payouts"
+            "api-reference/endpoint/payout/get"
           ]
         }
       ]
