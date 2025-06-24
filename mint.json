@@ -20,84 +20,61 @@
       "url": "mailto:hi@mintlify.com"
     }
   ],
-  "tabs": [
+  "navigation": [
     {
-      "name": "Documentation",
-      "url": "docs",
-      "docset": "docs"
+      "group": "Documentation",
+      "pages": [
+        "introduction",
+        "quickstart",
+        "authentication",
+        "references/metadata",
+        "references/testcards",
+        "references/webhook",
+        "references/sandbox"
+      ]
     },
     {
-      "name": "API Reference",
-      "url": "api",
-      "docset": "api"
+      "group": "API Reference",
+      "pages": [
+        {
+          "group": "Payment Links",
+          "pages": [
+            "api-reference/endpoint/create",
+            "api-reference/endpoint/delete",
+            "api-reference/endpoint/get",
+            "api-reference/endpoint/get-by-filter"
+          ]
+        },
+        {
+          "group": "Transaction Status",
+          "pages": [
+            "api-reference/endpoint/Transaction/get-transaction",
+            "api-reference/endpoint/Transaction/transaction-by-id"
+          ]
+        },
+        {
+          "group": "Business Details",
+          "pages": [
+            "api-reference/endpoint/Business/get"
+          ]
+        },
+        {
+          "group": "Payout Summary",
+          "pages": [
+            "api-reference/endpoint/payout/get",
+            "api-reference/endpoint/payout/get-all-payouts"
+          ]
+        }
+      ]
     },
     {
-      "name": "Changelog",
-      "url": "changelog",
-      "docset": "changelog"
+      "group": "Changelog",
+      "pages": [
+        "changelog/2024-01-01",
+        "changelog/2024-06-01"
+      ]
     }
   ],
-  "navigation": {
-    "docs": [
-      {
-        "group": "Documentation",
-        "pages": [
-          "introduction",
-          "quickstart",
-          "authentication",
-          "references/metadata",
-          "references/testcards",
-          "references/webhook",
-          "references/sandbox"
-        ]
-      }
-    ],
-    "api": [
-      {
-        "group": "API Reference",
-        "pages": [
-          {
-            "group": "Payment Links",
-            "pages": [
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/get-by-filter"
-            ]
-          },
-          {
-            "group": "Transaction Status",
-            "pages": [
-              "api-reference/endpoint/Transaction/get-transaction",
-              "api-reference/endpoint/Transaction/transaction-by-id"
-            ]
-          },
-          {
-            "group": "Business Details",
-            "pages": [
-              "api-reference/endpoint/Business/get"
-            ]
-          },
-          {
-            "group": "Payout Summary",
-            "pages": [
-              "api-reference/endpoint/payout/get",
-              "api-reference/endpoint/payout/get-all-payouts"
-            ]
-          }
-        ]
-      }
-    ],
-    "changelog": [
-      {
-        "group": "Changelog",
-        "pages": [
-          "changelog/2024-01-01",
-          "changelog/2024-06-01"
-        ]
-      }
-    ]
-  },
   "specs": "./api-reference/openapi.json",
   "footerSocials": {
     "x": "https://x.com/mintlify",
