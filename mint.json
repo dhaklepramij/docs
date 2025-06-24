@@ -22,13 +22,13 @@
   ],
   "tabs": [
     {
-      "name": "API Docs Test",
+      "name": "API Docs",
       "url": "documentation"
     }
   ],
   "navigation": [
     {
-      "group": "API Docs",
+      "group": "API Docs Test",
       "pages": [
         "introduction",
         "quickstart",
