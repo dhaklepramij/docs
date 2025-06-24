@@ -38,60 +38,37 @@
             ]
           },
           {
-            "group": "Payments",
+            "group": "Payment Links",
             "pages": [
-              {
-                "group": "Payment Links",
-                "pages": [
-                  "api-reference/endpoint/create",
-                  "api-reference/endpoint/delete",
-                  "api-reference/endpoint/get",
-                  "api-reference/endpoint/get-by-filter"
-                ]
-              }
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/get-by-filter"
             ]
           },
           {
-            "group": "Transactions",
+            "group": "Transaction Status",
             "pages": [
-              {
-                "group": "Transaction Status",
-                "pages": [
-                  "api-reference/endpoint/Transaction/get-transaction",
-                  "api-reference/endpoint/Transaction/transaction-by-id"
-                ]
-              }
+              "api-reference/endpoint/Transaction/get-transaction",
+              "api-reference/endpoint/Transaction/transaction-by-id"
             ]
           },
           {
-            "group": "Business",
+            "group": "Business Details",
             "pages": [
-              {
-                "group": "Business Details",
-                "pages": [
-                  "api-reference/endpoint/Business/get"
-                ]
-              }
+              "api-reference/endpoint/Business/get"
             ]
           },
           {
-            "group": "Payout",
+            "group": "Payout Summary",
             "pages": [
-              {
-                "group": "Payout Summary",
-                "pages": [
-                  "api-reference/endpoint/payout/get",
-                  "api-reference/endpoint/payout/get-all-payouts"
-                ]
-              }
+              "api-reference/endpoint/payout/get",
+              "api-reference/endpoint/payout/get-all-payouts"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": []
-    }
+    ]
   },
   "specs": "./api-reference/openapi.json",
   "footer": {
