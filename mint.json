@@ -1,6 +1,6 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "$schema": "https://mintlify.com/docs.schema.json",
+  "theme": "venus",
   "name": "API docs Test",
   "logo": {
     "dark": "/logo/dark.svg",
@@ -20,56 +20,54 @@
       }
     ]
   },
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "API Docs",
-        "groups": [
-          {
-            "group": "General",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "authentication",
-              "references/metadata",
-              "references/testcards",
-              "references/webhook",
-              "references/sandbox"
-            ]
-          },
-          {
-            "group": "Payment Links",
-            "pages": [
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/get-by-filter"
-            ]
-          },
-          {
-            "group": "Transaction Status",
-            "pages": [
-              "api-reference/endpoint/Transaction/get-transaction",
-              "api-reference/endpoint/Transaction/transaction-by-id"
-            ]
-          },
-          {
-            "group": "Business Details",
-            "pages": [
-              "api-reference/endpoint/Business/get"
-            ]
-          },
-          {
-            "group": "Payout Summary",
-            "pages": [
-              "api-reference/endpoint/payout/get",
-              "api-reference/endpoint/payout/get-all-payouts"
-            ]
-          }
-        ]
-      }
-    ]
-  },
+  "tabs": [
+    {
+      "name": "API Docs",
+      "groups": [
+        {
+          "name": "General",
+          "pages": [
+            "introduction",
+            "quickstart",
+            "authentication",
+            "references/metadata",
+            "references/testcards",
+            "references/webhook",
+            "references/sandbox"
+          ]
+        },
+        {
+          "name": "Payment Links",
+          "pages": [
+            "api-reference/endpoint/create",
+            "api-reference/endpoint/delete",
+            "api-reference/endpoint/get",
+            "api-reference/endpoint/get-by-filter"
+          ]
+        },
+        {
+          "name": "Transaction Status",
+          "pages": [
+            "api-reference/endpoint/Transaction/get-transaction",
+            "api-reference/endpoint/Transaction/transaction-by-id"
+          ]
+        },
+        {
+          "name": "Business Details",
+          "pages": [
+            "api-reference/endpoint/Business/get"
+          ]
+        },
+        {
+          "name": "Payout Summary",
+          "pages": [
+            "api-reference/endpoint/payout/get",
+            "api-reference/endpoint/payout/get-all-payouts"
+          ]
+        }
+      ]
+    }
+  ],
   "specs": "./api-reference/openapi.json",
   "footer": {
     "socials": {
