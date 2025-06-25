@@ -20,9 +20,11 @@
       }
     ]
   },
+  "navigation": [],
   "tabs": [
     {
       "name": "API Docs",
+      "url": "api-docs",
       "groups": [
         {
           "name": "General",
