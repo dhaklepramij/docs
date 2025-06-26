@@ -20,7 +20,11 @@
       }
     ]
   },
-  "navigation": [],
+  "navigation": [
+    {
+      "page": "introduction"
+    }
+  ],
   "tabs": [
     {
       "name": "API Docs",
