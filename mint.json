@@ -22,7 +22,8 @@
   },
   "navigation": [
     {
-      "page": "introduction"
+      "group": "Quick Access",
+      "pages": ["introduction"]
     }
   ],
   "tabs": [
