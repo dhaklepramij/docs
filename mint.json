@@ -1,4 +1,6 @@
 {
+  "$schema": "https://mintlify.com/docs.schema.json",
+  "theme": "venus",
   "name": "API docs Test",
   "logo": {
     "dark": "/logo/dark.svg",
@@ -8,93 +10,76 @@
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
+    "dark": "#0D9373"
   },
-  "topbarLinks": [
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:hi@mintlify.com"
+      }
+    ]
+  },
+  "navigation": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "page": "introduction"
     }
   ],
   "tabs": [
     {
       "name": "API Docs",
-      "url": "documentation12"
-    }
-  ],
-  "navigation": [
-    {
-      "group": "API Docs Test",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "authentication",
-        "references/metadata",
-        "references/testcards",
-        "references/webhook",
-        "references/sandbox"     
-      ]
-    },
-  {
-      "group": "Payments",
-      "pages": [
+      "url": "documentation12",
+      "groups": [
         {
-          "group": "Payment Links",
+          "name": "API Docs Test",
+          "pages": [
+            "introduction",
+            "quickstart",
+            "authentication",
+            "references/metadata",
+            "references/testcards",
+            "references/webhook",
+            "references/sandbox"
+          ]
+        },
+        {
+          "name": "Payment Links",
           "pages": [
             "api-reference/endpoint/create",
             "api-reference/endpoint/delete",
             "api-reference/endpoint/get",
             "api-reference/endpoint/get-by-filter"
-            
           ]
-        }
-      ]
-    },
-    {
-      "group": "Transactions",
-      "pages": [
+        },
         {
-          "group": "Transaction Status",
+          "name": "Transaction Status",
           "pages": [
             "api-reference/endpoint/Transaction/get-transaction",
             "api-reference/endpoint/Transaction/transaction-by-id"
           ]
-        }
-      ]
-    },
-      {
-      "group": "Business",
-      "pages": [
+        },
         {
-          "group": "Business Details",
+          "name": "Business Details",
           "pages": [
             "api-reference/endpoint/Business/get"
           ]
-        }
-      ]
-    },
-     {
-      "group": "Payout",
-      "pages": [
+        },
         {
-          "group": "Payout Summary",
+          "name": "Payout Summary",
           "pages": [
             "api-reference/endpoint/payout/get",
-             "api-reference/endpoint/payout/get-all-payouts"
+            "api-reference/endpoint/payout/get-all-payouts"
           ]
         }
       ]
     }
   ],
-   "specs": "./api-reference/openapi.json",
-  "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+  "specs": "./api-reference/openapi.json",
+  "footer": {
+    "socials": {
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
+    }
   }
-  
 }
