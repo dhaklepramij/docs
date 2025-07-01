@@ -25,16 +25,32 @@
       "group": "Documentation",
       "pages": [
         {
-          "group": " ",
-          "pages": [
-            "introduction",
-            "quickstart",
-            "authentication",
-            "references/metadata",
-            "references/testcards",
-            "references/webhook",
-            "references/sandbox"
-          ]
+          "group": "Introduction",
+          "pages": ["introduction"]
+        },
+        {
+          "group": "Quickstart",
+          "pages": ["quickstart"]
+        },
+        {
+          "group": "Authentication",
+          "pages": ["authentication"]
+        },
+        {
+          "group": "Metadata",
+          "pages": ["references/metadata"]
+        },
+        {
+          "group": "Test Cards",
+          "pages": ["references/testcards"]
+        },
+        {
+          "group": "Webhook",
+          "pages": ["references/webhook"]
+        },
+        {
+          "group": "Sandbox",
+          "pages": ["references/sandbox"]
         }
       ]
     },
