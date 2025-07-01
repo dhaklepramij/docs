@@ -1,5 +1,5 @@
 {
-  "name": "API Docs Test",
+  "name": "API docs Test",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -20,42 +20,85 @@
       "url": "mailto:hi@mintlify.com"
     }
   ],
-  "navigation": {
-    "dropdowns": [
+  "tabs": [
+    {
+      "name": "Documentation",
+      "url": "references,introduction,quickstart,authentication"
+    },
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "API Docs",
+      "pages": [
+        "introduction",
+        "quickstart",
+        "authentication",
+        "references/metadata",
+        "references/testcards",
+        "references/webhook",
+        "references/sandbox"     
+      ]
+    },
+  {
+      "group": "Payments",
+      "pages": [
+        {
+          "group": "Payment Links",
+          "pages": [
+            "api-reference/endpoint/create",
+            "api-reference/endpoint/delete",
+            "api-reference/endpoint/get",
+            "api-reference/endpoint/get-by-filter"
+            
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Transactions",
+      "pages": [
+        {
+          "group": "Transaction Status",
+          "pages": [
+            "api-reference/endpoint/Transaction/get-transaction",
+            "api-reference/endpoint/Transaction/transaction-by-id"
+          ]
+        }
+      ]
+    },
       {
-        "dropdown": "Documentation",
-        "icon": "book-open",
-        "pages": [
-          "introduction",
-          "quickstart",
-          "authentication",
-          "references/metadata",
-          "references/testcards",
-          "references/webhook",
-          "references/sandbox"
-        ]
-      },
-      {
-        "dropdown": "API Reference",
-        "icon": "square-terminal",
-        "pages": [
-          "api-reference/endpoint/create",
-          "api-reference/endpoint/delete",
-          "api-reference/endpoint/get",
-          "api-reference/endpoint/get-by-filter",
-          "api-reference/endpoint/Transaction/get-transaction",
-          "api-reference/endpoint/Transaction/transaction-by-id",
-          "api-reference/endpoint/Business/get",
-          "api-reference/endpoint/payout/get",
-          "api-reference/endpoint/payout/get-all-payouts"
-        ]
-      }
-    ]
-  },
-  "specs": "./api-reference/openapi.json",
+      "group": "Business",
+      "pages": [
+        {
+          "group": "Business Details",
+          "pages": [
+            "api-reference/endpoint/Business/get"
+          ]
+        }
+      ]
+    },
+     {
+      "group": "Payout",
+      "pages": [
+        {
+          "group": "Payout Summary",
+          "pages": [
+            "api-reference/endpoint/payout/get",
+             "api-reference/endpoint/payout/get-all-payouts"
+          ]
+        }
+      ]
+    }
+  ],
+   "specs": "./api-reference/openapi.json",
   "footerSocials": {
     "x": "https://x.com/mintlify",
     "github": "https://github.com/mintlify",
     "linkedin": "https://linkedin.com/company/mintlify"
   }
+  
 }
