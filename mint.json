@@ -20,7 +20,7 @@
       "url": "mailto:hi@mintlify.com"
     }
   ],
-  "tabs": [
+  "dropdowns": [
     {
       "name": "Documentation",
       "url": "references,introduction,quickstart,authentication"
