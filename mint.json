@@ -24,13 +24,18 @@
     {
       "group": "Documentation",
       "pages": [
-        "introduction",
-        "quickstart",
-        "authentication",
-        "references/metadata",
-        "references/testcards",
-        "references/webhook",
-        "references/sandbox"
+        {
+          "group": "Getting Started",
+          "pages": [
+            "introduction",
+            "quickstart",
+            "authentication",
+            "references/metadata",
+            "references/testcards",
+            "references/webhook",
+            "references/sandbox"
+          ]
+        }
       ]
     },
     {
