@@ -22,12 +22,8 @@
   ],
   "tabs": [
     {
-      "name": "API Docs",
-      "url": "documentation"
-    },
-    {
       "name": "Documentation",
-      "url": "references"
+      "url": "references,introduction,quickstart,authentication"
     },
     {
       "name": "API Reference",
@@ -36,7 +32,7 @@
   ],
   "navigation": [
     {
-      "group": "API Docs Test",
+      "group": "API Docs",
       "pages": [
         "introduction",
         "quickstart",
