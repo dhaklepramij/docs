@@ -32,7 +32,6 @@
   ],
   "navigation": [
     {
-      "group": "API Docs",
       "pages": [
         "introduction",
         "quickstart",
