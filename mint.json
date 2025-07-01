@@ -23,7 +23,15 @@
   "tabs": [
     {
       "name": "API Docs",
-      "url": "documentation12"
+      "url": "documentation"
+    },
+    {
+      "name": "Documentation",
+      "url": "documentation"
+    },
+    {
+      "name": "API Reference",
+      "url": "api-reference"
     }
   ],
   "navigation": [
