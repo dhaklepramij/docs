@@ -23,7 +23,7 @@
   "tabs": [
     {
       "name": "Documentation",
-       "url": "references,introduction,quickstart,authentication",
+       "url": "references",
       "groups": [
         {
           "name": "Documentation",
