@@ -23,11 +23,11 @@
   "tabs": [
     {
       "name": "Documentation",
-      "url": "introduction,quickstart,authentication,references"  // <-- This must be a real .mdx file
+      "url": "introduction,quickstart,authentication,references"
     },
     {
       "name": "API Reference",
-      "url": "api-reference" // <-- Also must be a valid file
+      "url": "api-reference"
     }
   ],
   "navigation": [
