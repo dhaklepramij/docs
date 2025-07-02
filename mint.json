@@ -23,6 +23,16 @@
   "tabs": [
     {
       "name": "Documentation",
+      "url": "introduction,quickstart,authentication,references"  // <-- This must be a real .mdx file
+    },
+    {
+      "name": "API Reference",
+      "url": "api-reference" // <-- Also must be a valid file
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Documentation",
       "pages": [
         "introduction",
         "quickstart",
@@ -34,37 +44,32 @@
       ]
     },
     {
-      "name": "API Reference",
-      "groups": [
-        {
-          "group": "Payment Links",
-          "pages": [
-            "api-reference/endpoint/create",
-            "api-reference/endpoint/delete",
-            "api-reference/endpoint/get",
-            "api-reference/endpoint/get-by-filter"
-          ]
-        },
-        {
-          "group": "Transaction Status",
-          "pages": [
-            "api-reference/endpoint/Transaction/get-transaction",
-            "api-reference/endpoint/Transaction/transaction-by-id"
-          ]
-        },
-        {
-          "group": "Business Details",
-          "pages": [
-            "api-reference/endpoint/Business/get"
-          ]
-        },
-        {
-          "group": "Payout Summary",
-          "pages": [
-            "api-reference/endpoint/payout/get",
-            "api-reference/endpoint/payout/get-all-payouts"
-          ]
-        }
+      "group": "API Reference - Payment Links",
+      "pages": [
+        "api-reference/endpoint/create",
+        "api-reference/endpoint/delete",
+        "api-reference/endpoint/get",
+        "api-reference/endpoint/get-by-filter"
+      ]
+    },
+    {
+      "group": "API Reference - Transaction Status",
+      "pages": [
+        "api-reference/endpoint/Transaction/get-transaction",
+        "api-reference/endpoint/Transaction/transaction-by-id"
+      ]
+    },
+    {
+      "group": "API Reference - Business Details",
+      "pages": [
+        "api-reference/endpoint/Business/get"
+      ]
+    },
+    {
+      "group": "API Reference - Payout Summary",
+      "pages": [
+        "api-reference/endpoint/payout/get",
+        "api-reference/endpoint/payout/get-all-payouts"
       ]
     }
   ],
