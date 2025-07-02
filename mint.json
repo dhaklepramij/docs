@@ -20,9 +20,9 @@
       "url": "mailto:hi@mintlify.com"
     }
   ],
-  "navigation": [
+  "tabs": [
     {
-      "group": "Documentation",
+      "name": "Documentation",
       "pages": [
         "introduction",
         "quickstart",
@@ -34,32 +34,37 @@
       ]
     },
     {
-      "group": "Payment Links",
-      "pages": [
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete",
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/get-by-filter"
-      ]
-    },
-    {
-      "group": "Transaction Status",
-      "pages": [
-        "api-reference/endpoint/Transaction/get-transaction",
-        "api-reference/endpoint/Transaction/transaction-by-id"
-      ]
-    },
-    {
-      "group": "Business Details",
-      "pages": [
-        "api-reference/endpoint/Business/get"
-      ]
-    },
-    {
-      "group": "Payout Summary",
-      "pages": [
-        "api-reference/endpoint/payout/get",
-        "api-reference/endpoint/payout/get-all-payouts"
+      "name": "API Reference",
+      "groups": [
+        {
+          "group": "Payment Links",
+          "pages": [
+            "api-reference/endpoint/create",
+            "api-reference/endpoint/delete",
+            "api-reference/endpoint/get",
+            "api-reference/endpoint/get-by-filter"
+          ]
+        },
+        {
+          "group": "Transaction Status",
+          "pages": [
+            "api-reference/endpoint/Transaction/get-transaction",
+            "api-reference/endpoint/Transaction/transaction-by-id"
+          ]
+        },
+        {
+          "group": "Business Details",
+          "pages": [
+            "api-reference/endpoint/Business/get"
+          ]
+        },
+        {
+          "group": "Payout Summary",
+          "pages": [
+            "api-reference/endpoint/payout/get",
+            "api-reference/endpoint/payout/get-all-payouts"
+          ]
+        }
       ]
     }
   ],
