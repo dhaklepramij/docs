@@ -30,28 +30,33 @@
         "dropdown": "API Reference",
         "icon": "terminal",
         "pages": [
+         {
+      "group": "Payments",
+      "pages": [
+        {
+          "group": "Payment Links",
+          "pages": [
+            "api-reference/endpoint/create",
+            "api-reference/endpoint/delete",
+            "api-reference/endpoint/get",
+            "api-reference/endpoint/get-by-filter"
+            
+          ]
+        }
+      ]
+    },
           {
-            "group": "Payment Links",
-            "pages": [
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/get-by-filter"
-            ]
-          },
-          {
-            "group": "Transaction Status",
-            "pages": [
-              "api-reference/endpoint/Transaction/get-transaction",
-              "api-reference/endpoint/Transaction/transaction-by-id"
-            ]
-          },
-          {
-            "group": "Business Details",
-            "pages": [
-              "api-reference/endpoint/Business/get"
-            ]
-          },
+      "group": "Transactions",
+      "pages": [
+        {
+          "group": "Transaction Status",
+          "pages": [
+            "api-reference/endpoint/transaction/get-transaction",
+            "api-reference/endpoint/transaction/transaction-by-id"
+          ]
+        }
+      ]
+    },
           {
             "group": "Payout Summary",
             "pages": [
